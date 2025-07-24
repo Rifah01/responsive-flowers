@@ -1,0 +1,90 @@
+.display-flex{
+    display:flex;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+}
+nav ul li{
+    margin-left: 20px;
+}
+.item-name1{
+    color:#000000;
+}
+.item-name2{
+    color:#8987A1;
+}
+
+/* banner */
+.item-color{
+    color:#E95A08;
+
+}
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: end;
+    margin-bottom: 120px;
+}
+.banner-img{
+    width:100%;
+}
+
+/* our plant */
+.item-change{
+    color:#E95A08;
+}
+.plant-items1{
+    font-weight: bold;
+    font-size: 3.0 rem;
+    
+}
+.our-plants{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+
+    
+}
+.plant-img{
+   
+}
+.plant-titlep{
+    font-weight: 700;
+    font-size: 1.7 rem;
+}
+.plant-sec1{
+   text-align: center;
+    font-size: 1.1rem;
+}
+.plant-sec2{
+    text-align: center;
+    
+}
+.plant-button{
+    
+    font-size: 0.75rem;
+    padding:10px;
+    
+    background-color: #E95A08;
+    color:#FFFFFF;
+    border:none;
+
+}
+
+.plants{
+   display:grid;
+   grid-template-columns:repeat(4 , 1fr);
+    
+}
