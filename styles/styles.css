@@ -359,8 +359,6 @@ footer ul li a{
     width: 300px;
 }
 
-
-
 @media screen  and (max-width:576px){
     .footer{
         flex-direction: column;
