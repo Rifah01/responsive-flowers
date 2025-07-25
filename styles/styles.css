@@ -17,13 +17,23 @@ nav ul li a{
 
 }
 nav ul li{
-    margin-left: 20px;
+    margin-left: 10px;
 }
+
 .item-name1{
     color:#000000;
+    
+}
+..item-name3{
+    color:#000000;   
 }
 .item-name2{
     color:#8987A1;
+}
+.cart{
+    width:15px;
+    margin-left: 10px;
+    
 }
 
 /* banner */
@@ -40,6 +50,10 @@ nav ul li{
 .banner-img{
     width:100%;
 }
+.banner-p{
+    width:570px;
+    height:108px;
+}
 
 /* our plant */
 .item-change{
@@ -47,7 +61,7 @@ nav ul li{
 }
 .plant-items1{
     font-weight: bold;
-    font-size: 3.0 rem;
+    font-size: 3.2 rem;
     
 }
 .our-plants{
@@ -57,8 +71,9 @@ nav ul li{
 
     
 }
+
 .plant-img{
-   
+   width:100%;
 }
 .plant-titlep{
     font-weight: 700;
@@ -86,5 +101,123 @@ nav ul li{
 .plants{
    display:grid;
    grid-template-columns:repeat(4 , 1fr);
+   gap:8px;
     
 }
+
+/* plant lovers section */
+
+.plant-lovers-main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    display:flex;
+    gap:50px;
+    align-items:end;
+    
+}
+.PL-title{
+    font-weight: bold;
+    font-size: 2.11rem;
+    color:#000000;
+}
+.PL-img{
+    width:540px;
+    height:590px;
+}
+.PL{
+    
+    width:540px;
+    height:521px;
+}
+.PL-list{
+    padding:10px;
+}
+.PL-list-item{
+width:350px;
+height:99px;
+
+}
+.badge{
+position: absolute;
+transform: translate(-50% ,-40%);
+width:286px;
+height:286px;
+
+}
+
+
+/* latest details */
+.latest-details{
+    max-width: 0 1140px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/* join section */
+
+.img1{
+    background-image: url('../images/deal-bloom.png');
+    border-radius: 10px;
+    width:367px;
+    height:193px;
+    
+    
+
+}
+
+.JS-items1{
+    color:#FFFFFF;
+    font-size:1.2rem ;
+    text-align:center;
+    align-content: center;
+    margin:8px;
+}
+
+.img2{
+    border-radius: 10px;
+    background-image: url('../images/deal-ana.png');
+    width:367px;
+    height:193px;
+    
+
+}
+
+
+.JS-items2{
+    color:white;
+    font-size:1.2rem ;
+    text-align:center;
+    align-content: center;
+     margin:8px;
+    
+}
+
+.img3{
+border-radius: 10px;
+    background-image: url('../images/deal-zabo.png');
+    width:700px;
+    height:400px;
+    
+
+}
+.JS-items3{
+    color:white;
+    font-size:1.2rem ;
+    text-align:center;
+    align-content: center;
+    
+
+}
+
+.join-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display:flex;
+    margin-bottom: 120px;
+    
+}
+
+
+
