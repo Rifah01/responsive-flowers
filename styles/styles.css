@@ -13,7 +13,7 @@ nav ul li a{
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 
 }
 nav ul li{
@@ -24,16 +24,28 @@ nav ul li{
     color:#000000;
     
 }
-..item-name3{
+.item-name3{
     color:#000000;   
 }
 .item-name2{
     color:#8987A1;
 }
 .cart{
-    width:15px;
+    width:13px;
     margin-left: 10px;
     
+}
+
+@media screen  and (max-width:576px){
+    .item-name1 , .item-name2{
+        display:none;
+    }
+    .navbar{
+        margin-bottom: 100px;
+    }
+    .cart{
+        margin-left: 10px;
+    }
 }
 
 /* banner */
@@ -54,6 +66,23 @@ nav ul li{
     width:570px;
     height:108px;
 }
+@media screen  and (max-width:576px){
+   .banner{
+    display: flex;
+    flex-direction: column-reverse;
+   } 
+   .banner-items{
+    width:22.75rem;
+   }
+   .banner-p{
+    width:90%;
+   }
+   .banner{
+    margin-bottom:50px;
+   }
+
+}
+    
 
 /* our plant */
 .item-change{
@@ -104,6 +133,18 @@ nav ul li{
    gap:8px;
     
 }
+@media screen  and (max-width:576px){
+    .plants{
+   display:grid;
+   grid-template-columns:repeat(2, 1fr);
+   gap:2px;
+    
+}
+.our-plants{
+    margin-bottom:40px;
+}
+    
+    }
 
 /* plant lovers section */
 
@@ -134,8 +175,9 @@ nav ul li{
     padding:10px;
 }
 .PL-list-item{
-width:350px;
+width:300px;
 height:99px;
+font-size: 0.75rem;
 
 }
 .badge{
@@ -145,15 +187,45 @@ width:286px;
 height:286px;
 
 }
+@media screen  and (max-width:576px){
+    .PL-img{
+    width:320px;
+    height:380px;
+   width: 100%;
+   overflow: hidden;
+   
+}
+.PL{
+    
+    width:350px;
+    height:320px;
+    margin-top: -10px;
+}
+.badge{
+    display: none;
+}
+    .plant-lovers-main{
+
+        flex-direction: column;
+        width:367px;
+        height:800px;
+        margin-bottom: 50px;
+    }
+.PL-list{
+    padding:0px;
+    width:310px;
+    height:290px;
+   
+    } }
+
 
 
 /* latest details */
 .latest-details{
     max-width: 0 1140px;
     text-align: center;
-    margin-bottom: 100px;
+   
 }
-
 
 /* join section */
 
@@ -215,9 +287,85 @@ border-radius: 10px;
     max-width: 1140px;
     margin: 0 auto;
     display:flex;
-    margin-bottom: 120px;
+    margin-bottom: 120px;  
+    
+}
+
+@media screen  and (max-width:576px){
+    .join-section{ 
+    flex-direction: column;
+    margin-bottom: 30px;
+     }
+
+    .img3 , .JS-items3{
+        width:376px;
+    height:190px; 
+      }
+    
+
+}
+
+
+
+/* brunch button */
+.brunch-button{
+    font-size: 0.95rem;
+    width:90px;
+    background-color: #E95A08;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    
+
+}
+.brunch-title{
+    color:#FFFFFF;
+}
+.brunch{
+    background-image: url(../images/news-letter-bg.png);
+    width:100%;
+    height: 500px;
+     text-align:center;
+    align-content: center; 
+    margin-bottom: 50px; 
     
 }
 
 
+@media screen  and (max-width:576px){
+    .brunch{
+        width:390px ;
+        height:275px ;
+    }
+
+}
+
+/* footer */
+.footer{
+    max-width:1120px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+    padding:5px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.fooet-p{
+    width: 300px;
+}
+
+
+
+@media screen  and (max-width:576px){
+    .footer{
+        flex-direction: column;
+    }
+    }
+    
+    
 
